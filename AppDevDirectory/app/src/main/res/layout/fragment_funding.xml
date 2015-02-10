@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#800000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:background="#222222">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="Like what we do? Please consider donating to AppDev so that we can fund
+            our students to continue their amazing work!" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Funding"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
+
+        <ImageButton
+            android:layout_width="340dp"
+            android:layout_height="340dp"
+            android:id="@+id/paypalButton"
+            android:src="@drawable/hypnotoad"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
